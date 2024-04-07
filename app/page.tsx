@@ -7,9 +7,9 @@ export default function Page() {
     // Changes dark or light based on system theme
     <main className="">
       {/* TODO: Fix panel background */}
-      <div className="justify-center items-center text-center mt-[75px]">
-        <Card>
-          <CardBody>
+      <div className="justify-center place-content-center items-center mt-[75px]">
+        <Card className="bg-gradient-to-r from-[#6DB1FA] to-[#F6159B] text-border-black w-[250px] mx-auto">
+          <CardBody id="MainHeader" className="justify-center items-center text-center text-[#D6E7FD] text-4xl">
             <p>wekul.dev</p>
           </CardBody>
         </Card>
