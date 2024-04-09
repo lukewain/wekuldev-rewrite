@@ -35,6 +35,7 @@ export default function Page() {
               width={40}
               radius="md"
               src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+              className="rounded-[50%]"
             ></Image>
             <div className="flex flex-col">
               <p className="text-md">GitHub</p>
@@ -58,6 +59,7 @@ export default function Page() {
               width={40}
               radius="md"
               src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/252250107793711.5faee56d2d7de.png"
+              className="rounded-[50%]"
             ></Image>
             <div className="ml-[7px] flex flex-col">
               <p className="text-md">Discord</p>
