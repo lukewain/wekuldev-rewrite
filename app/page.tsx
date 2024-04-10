@@ -13,20 +13,13 @@ import {
 export default function Page() {
   return (
     // Changes dark or light based on system theme
-    <main className="">
+    <main>
       {/* TODO: Fix panel background */}
-      <div className="justify-center place-content-center items-center mt-[75px]">
-        <Card className="bg-gradient-to-r from-[#6DB1FA] to-[#F6159B] text-border-black w-[250px] mx-auto">
-          <CardBody
-            id="MainHeader"
-            className="justify-center items-center text-center text-[#D6E7FD] text-4xl"
-          >
-            <p>wekul.dev</p>
-          </CardBody>
-        </Card>
-        <br />
+      <div className="justify-center place-content-center items-center mt-[75px] mb-[30px]">
+        <p className="text-[#ffff] text-6xl font-mono text-center">wekul.dev</p>
+      <br />
       </div>
-      <div className="columns-2 max-w-[50%] mx-auto">
+      <div className="columns-2 max-w-[50%] mx-auto" id="fade-in">
         <Card className="max-w-[400px] justify-center items-center place-content-center mx-auto">
           <CardHeader>
             <Image
