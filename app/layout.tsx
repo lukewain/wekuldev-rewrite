@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import * as React from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { NextUIProvider } from "./components/providers";
 
 const inter = Inter({ subsets: ["latin"] });
 export const runtime = "edge";
@@ -29,9 +28,7 @@ export default function RootLayout({
           https://www.realtimecolors.com/?colors=e2ebef-0a0e12-9fb7cb-413a6b-805ea7&fonts=Poppins-Poppins
           https://www.realtimecolors.com/?colors=002811-f4fff9-16fe74-6db0ff-3d63ff&fonts=Poppins-Poppins
         */}
-      <body className={inter.className}>
-        <NextUIProvider>{children}</NextUIProvider>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

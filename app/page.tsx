@@ -1,77 +1,72 @@
-import * as React from "react";
-
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Image,
-  Divider,
-  Link,
-} from "@nextui-org/react";
+import React from "react";
 
 export default function Page() {
   return (
-    // Changes dark or light based on system theme
     <main>
-      {/* TODO: Fix panel background */}
       <div className="justify-center place-content-center items-center mt-[75px] mb-[30px]">
         <p className="text-[#ffff] text-6xl font-mono text-center">wekul.dev</p>
-      <br />
+        <br />
       </div>
-      <div className="columns-2 max-w-[50%] mx-auto" id="fade-in">
-        <Card className="max-w-[400px] justify-center items-center place-content-center mx-auto">
-          <CardHeader>
-            <Image
-              alt="Github Logo"
-              height={40}
-              width={40}
-              radius="md"
-              src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-              className="rounded-[50%]"
-            ></Image>
-            <div className="flex flex-col">
+      <div
+        className="flex place-content-center justify-center items-center"
+        id="fade-in"
+      >
+        <div className="mr-[20px]" id="card1">
+          <div className="card shadow-xl w-96 h-[439px] bg-[#ffff] text-[#000000]">
+            <figure>
+              <img
+                width="50%"
+                height="50%"
+                src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+                alt="Github Logo"
+              />
+            </figure>
+            <div className="card-title flex flex-col mt-[5px]">
               <p className="text-md">GitHub</p>
-              <p className="text-small text-default-500">https://github.com</p>
             </div>
-          </CardHeader>
-          <Divider />
-          <CardBody>The GitHub where all my projects can be found!</CardBody>
-          <Divider />
-          <CardFooter>
-            <Link isExternal showAnchorIcon href="https://github.com/lukewain">
-              View my github here!
-            </Link>
-          </CardFooter>
-        </Card>
-        <Card className="max-w-[400px] justify-center items-center place-content-center mx-auto">
-          <CardHeader>
-            <Image
-              alt="Github Logo"
-              height={40}
-              width={40}
-              radius="md"
-              src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/252250107793711.5faee56d2d7de.png"
-              className="rounded-[50%]"
-            ></Image>
-            <div className="ml-[7px] flex flex-col">
+            <div className="card-body items-center">
+              The GitHub where all my projects can be found!
+            </div>
+            <div className="card-actions justify-center mb-[18px]">
+              <a
+                href="https://github.com/lukewain"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <button className="btn btn-primary text-[#ffff]">
+                  My GitHub!
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="ml-[20px]" id="card2">
+          <div className="card shadow-xl w-96 h-[439px] bg-[#ffff] text-[#000000]">
+            <figure>
+              <img
+                width="50%"
+                height="50%"
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/252250107793711.5faee56d2d7de.png"
+                alt="Discord Logo"
+              />
+            </figure>
+            <div className="card-title flex flex-col mt-[5px]">
               <p className="text-md">Discord</p>
-              <p className="text-small text-default-500">https://discord.gg</p>
             </div>
-          </CardHeader>
-          <Divider />
-          <CardBody>My discord profile!</CardBody>
-          <Divider />
-          <CardFooter>
-            <Link
-              isExternal
-              showAnchorIcon
-              href=" https://discordapp.com/users/268815279570681857"
-            >
-              Add my discord here!
-            </Link>
-          </CardFooter>
-        </Card>
+            <div className="card-body items-center">My discord profile!</div>
+            <div className="card-actions justify-center mb-[18px]">
+              <a
+                href="https://discordapp.com/users/268815279570681857"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <button className="btn btn-primary text-[#ffff]">
+                  Add Me!
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   );
