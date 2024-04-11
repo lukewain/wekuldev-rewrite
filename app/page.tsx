@@ -8,7 +8,7 @@ export default function Page() {
         <br />
       </div>
       <div
-        className="flex place-content-center justify-center items-center"
+        className="flex sm:flex-col place-content-center justify-center items-center"
         id="fade-in"
       >
         <div className="mr-[20px]" id="card1">
