@@ -8,7 +8,7 @@ export default function Page() {
         <br />
       </div>
       <div
-        className="flex sm:flex-col md:flex-row lg:flex-row xl:flex-row place-content-center justify-center items-center"
+        className="flex sm:flex-col md:flex-col lg:flex-row xl:flex-row place-content-center justify-center items-center"
         id="fade-in"
       >
         <div className="md:mr-[20px] sm:mb-[5px]" id="card1">
@@ -40,7 +40,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="md:ml-[20px] sm:mb-[5px]" id="card2">
+        <div className="md:ml-[20px] sm:mt-[5px]" id="card2">
           <div className="card shadow-xl w-96 h-[439px] bg-[#ffff] text-[#000000]">
             <figure>
               <img
