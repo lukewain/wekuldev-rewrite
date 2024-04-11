@@ -8,10 +8,10 @@ export default function Page() {
         <br />
       </div>
       <div
-        className="flex sm:flex-col md:flex-col lg:flex-row xl:flex-row place-content-center justify-center items-center"
+        className="flex flex-col lg:flex-row place-content-center justify-center items-center"
         id="fade-in"
       >
-        <div className="md:mr-[20px] sm:mb-[5px]" id="card1">
+        <div className="lg:mr-[20px] mb-[5px] lg:mb-[0px]" id="card1">
           <div className="card shadow-xl w-96 h-[439px] bg-[#ffff] text-[#000000]">
             <figure>
               <img
@@ -40,7 +40,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="md:ml-[20px] sm:mt-[5px]" id="card2">
+        <div className="lg:ml-[20px] mt-[5px] lg:mt-[0px]" id="card2">
           <div className="card shadow-xl w-96 h-[439px] bg-[#ffff] text-[#000000]">
             <figure>
               <img
