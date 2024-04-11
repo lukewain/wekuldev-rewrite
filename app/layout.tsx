@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import * as React from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({ subsets: ["latin"] });
 export const runtime = "edge";
@@ -18,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+    <Analytics />
       {/* TODO: Make this have top bar with good computer wizard type shiz of a logo */}
       {/* 
         Scheme contenders
