@@ -27,15 +27,14 @@ export default function MEE6Slander() {
       <div className="card-body">
         <div className="w-[95%] mx-auto">
           <p>
-            MEE6 Slander originally started out as a funny bot for me and my
-            friends to laugh about how MEE6 was annoying and always messaged at
-            the most inconvenient of times.
+            {
+              "MEE6 Slander originally started out as a funny bot for me and my friends to laugh about how MEE6 was annoying and always messaged at the most inconvenient of times."
+            }
             <br />
             <br />
-            Since its creation, the bot has grown to exist in over 1,000 servers
-            and is used by over 20,000 people. If you'd like you can check out
-            the source code or even invite the bot to your own server. Just make
-            sure you have MEE6 there otherwise you won't benefit!
+            {
+              "Since its creation, the bot has grown to exist in over 1,000 servers and is used by over 20,000 people. If you'd like you can check out the source code or even invite the bot to your own server. Just make sure you have MEE6 there otherwise you won't benefit!"
+            }
           </p>
         </div>
         <div className="card-actions justify-center mt-[10px]">
